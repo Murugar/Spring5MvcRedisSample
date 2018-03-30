@@ -10,8 +10,8 @@ import com.iqmsoft.service.RedisCacheService;
 
 
 @Controller
-public class ViewController {
-    private static final Logger logger = Logger.getLogger(ViewController.class);
+public class MainController {
+    private static final Logger logger = Logger.getLogger(MainController.class);
 
     @Autowired
     private RedisCacheService redisCacheService;

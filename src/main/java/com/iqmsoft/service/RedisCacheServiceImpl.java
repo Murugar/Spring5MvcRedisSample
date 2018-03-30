@@ -1,11 +1,10 @@
-package com.iqmsoft.service.impl;
+package com.iqmsoft.service;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.iqmsoft.dao.RedisCacheDao;
-import com.iqmsoft.service.RedisCacheService;
 
 
 @Service
